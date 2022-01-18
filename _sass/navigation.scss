@@ -1,0 +1,31 @@
+@import 'constants';
+
+nav {
+  font-size: 1.6rem;
+  height: 7rem;
+  padding: 1rem 2rem;
+  background-color: $header_background;
+  color: $header_text;
+
+  #head-container {
+    width: 28rem;
+    margin: 0 auto;
+
+    div {
+      float: left;
+      vertical-align: middle;
+      font-size: 3rem;
+      margin: 0 0.5rem;
+
+      img {
+        width: 4.2rem;
+        border-radius: 2rem;
+      }
+    }
+  }
+}
+
+.not-found-logo {
+  width: 10rem;
+  border-radius: 5rem;
+}

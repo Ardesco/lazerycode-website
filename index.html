@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<nav>
+    <div id="head-container">
+        <div><img src="{{ site.url }}/assets/images/lazerycode.png" alt="icon"></div>
+        <div class="site_name">LAZERY CODE</div>
+    </div>
+</nav>
+<p>Lazery Code is a domain used for open source projects, and projects that <a href="https://github.com/ardesco">Mark Collin - Ardesco</a> is associated with</p>
+<h3>Associated sites</h3>
+<div id="links">
+    {% for link in site.data.external-links %}
+    <div class="link">
+        <a href="{{ link.url }}" target="_blank">
+            <div title="{{ link.name}}" style="background-image: url('{{ link.image }}'); background-size: {{ link.size }}"></div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+<div class="spacer"></div>
