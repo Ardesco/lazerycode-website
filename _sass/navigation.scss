@@ -6,20 +6,36 @@ nav {
   padding: 1rem 2rem;
   background-color: $header_background;
   color: $header_text;
+}
 
+#head-container {
+  width: 28rem;
+  margin: 0 auto;
+
+  div {
+    float: left;
+    vertical-align: middle;
+    font-size: 3rem;
+    margin: 0 0.5rem;
+
+    img {
+      width: 4.2rem;
+      border-radius: 2rem;
+    }
+  }
+}
+
+@media (max-width: 520px) {
   #head-container {
-    width: 28rem;
-    margin: 0 auto;
+    width: 22rem;
 
     div {
-      float: left;
-      vertical-align: middle;
-      font-size: 3rem;
+      font-size: 2rem;
       margin: 0 0.5rem;
 
       img {
-        width: 4.2rem;
-        border-radius: 2rem;
+        width: 3rem;
+        border-radius: 1.5rem;
       }
     }
   }

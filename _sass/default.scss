@@ -46,6 +46,10 @@ a {
     width: calc(33% - 2rem);
     aspect-ratio: 16/9;
 
+    &:hover {
+      filter: brightness(75%);
+    }
+
     a {
       @media not all and (min-resolution: .001dpcm) {
         @supports (-webkit-appearance:none) and (display:flow-root) {
@@ -68,13 +72,13 @@ a {
   }
 
   @media (max-width: $small_title_max_width) {
-    .sponsor {
+    .link {
       width: calc(50% - 4rem);
     }
   }
 
   @media (max-width: 649px) {
-    .sponsor {
+    .link {
       width: calc(100% - 4rem);
     }
   }

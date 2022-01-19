@@ -1,3 +1,7 @@
+- name: Mastering Selenium
+  image: /assets/images/mastering-selenium.png
+  size: 100%
+  url: https://www.masteringselenium.com
 - name: JMeter Maven Plugin
   image: /assets/images/jmeter-maven-plugin.png
   size: 100%
